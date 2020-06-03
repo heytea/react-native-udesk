@@ -1,0 +1,39 @@
+{
+  "name": "@heytea/react-native-udesk",
+  "title": "React Native Udesk",
+  "version": "1.0.0",
+  "description": "@heytea/react-native-udesk",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.d.ts",
+    "index.js",
+    "ios",
+    "react-native-udesk.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heytea/react-native-udesk.git"
+  },
+  "keywords": [
+    "react-native-udesk"
+  ],
+  "author": {
+    "name": "Heytea"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
