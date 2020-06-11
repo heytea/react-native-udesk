@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 顶部TitleBar的背景色 -->
+    <color name="udesk_titlebar_bg1">#FFFFFF</color>
+    <!-- 顶部TitleBar，左右两侧文字的颜色 -->
+    <!--<color name="udesk_color_navi_text1">#FFFFFF</color>-->
+    <!-- IM界面，左侧文字的字体颜色 -->
+    <color name="udesk_color_im_text_left1">#313F48</color>
+    <!-- IM界面，右侧文字的字体颜色 -->
+    <color name="udesk_color_im_text_right1">#FFFFFF</color>
+    <!-- IM界面，左侧客服昵称文字的字体颜色 -->
+    <color name="udesk_color_im_left_nickname1">#C3CDD4</color>
+    <!-- IM界面，右侧用户昵称文字的字体颜色 -->
+    <color name="udesk_color_im_right_nickname1">#242E33</color>
+    <!-- IM界面，时间文字的字体颜色 -->
+    <color name="udesk_color_im_time_text1">#C3CDD4</color>
+    <!-- IM界面，提示语文字的字体颜色，比如客服转移-->
+    <color name="udesk_color_im_tip_text1">#c7c6c6</color>
+    <!-- 商品咨询页面中背景色 -->
+    <color name="udesk_color_im_commondity_bg1">#ECEFF1</color>
+    <!-- 商品咨询页面中，发送链接的字样颜色 -->
+    <color name="udesk_color_im_commondity_link1">#FFFFFF</color>
+    <!--询页面中，商品介绍Title的字样颜色 -->
+    <color name="udesk_color_im_commondity_title1">#313F48</color>
+    <!-- 商品咨询页面中，商品介绍子Title的字样颜色 -->
+    <color name="udesk_color_im_commondity_subtitle1">#FF3B30</color>
+    <!--====================================================================================================-->
+    <!--顶部titlebar 中间上下文字的字体颜色 客服当前状态-->
+    <color name="udesk_color_middle_text">#212121</color>
+    <!--顶部titlebar 右侧文字的字体颜色 客服当前状态-->
+    <color name="udesk_color_right_text">#757575</color>
+
+
+    <!-- textview 超链接的颜色 -->
+    <color name="textlinkcolor">#ffffff</color>
+    <color name="udesk_loginDialog_background">#a0000000</color>
+
+    <!-- 界面中分割线的颜色值 -->
+    <color name="udesk_color_line1">#FAFBFC</color>
+    <color name="udesk_color_line2">#B2B2B2</color>
+
+    <!-- 消息底部面板的背景色 -->
+    <color name="udesk_message_bottom_pannel_bg1">#FAFBFC</color>
+    <color name="udesk_message_bottom_pannel_bg2">#FFFFFF</color>
+
+    <color name="udesk_edit_input_msg_cololr1">#333333</color>
+    <color name="udesk_edit_input_msg_cololr2">#333333</color>
+
+    <color name="udesk_edit_input_hint_msg_cololr1">#C3CDD4</color>
+    <color name="udesk_bottom_send1">#0093FF</color>
+    <color name="udesk_bottom_send2">#0093FF</color>
+
+    <color name="udesk_bottom_send_textcolor1">#FFFFFFFF</color>
+    <color name="udesk_bottom_send_textcolor2">#FFFFFFFF</color>
+
+    <!-- 默认白色背景 -->
+    <color name="udesk_color_bg_white">#FFFFFFFF</color>
+
+    <!-- 黑色 背景-->
+    <color name="udesk_black">#ff000000</color>
+
+
+    <color name="udesk_color_text_light">#efeff3</color>
+    <color name="udesk_color_text_gray">#dadada</color>
+
+    <color name="udesk_default_gray_bg">#F0EFF5</color>
+    <color name="udesk_view_line">#D7D7D7</color>
+
+    <color name="udesk_custom_dialog_cancle_btn_color">#333333</color>
+    <color name="udesk_custom_dialog_sure_btn_color">#007AFF</color>
+
+    <color name="udesk_struct_bg_line_color">#e4e4e4</color>
+    <color name="udesk_color_f9f9f9">#f9f9f9</color>
+    <color name="udesk_color_7878787">#787878</color>
+    <color name="udesk_color_999999">#999999</color>
+    <color name="udesk_color_2d93fa">#2D93FA</color>
+    <color name="udesk_color_393a3f">#393A3F</color>
+    <color name="udesk_color_f2242526">#f2242526</color>
+    <color name="udesk_color_eb212121">#eb212121</color>
+    <color name="udesk_color_8045c01a">#8045C01A</color>
+    <color name="udesk_color_45c01a">#45C01A</color>
+    <color name="udesk_color_747578">#747578</color>
+    <color name="udesk_color_666666">#666666</color>
+    <color name="udesk_color_f0f2f2">#f0f2f2</color>
+    <color name="udesk_color_d8d8d8">#D8D8D8</color>
+    <color name="udesk_color_333333">#333333</color>
+    <color name="udesk_color_cccccc">#cccccc</color>
+    <color name="udesk_color_cd3f31">#CD3F31</color>
+    <color name="udesk_color_242E33">#242E33</color>
+    <color name="udesk_color_212121">#212121</color>
+    <color name="udesk_color_2A2A2A">#2A2A2A</color>
+    <color name="udesk_color_F6F6F6">#F6F6F6</color>
+    <color name="udesk_color_227BF0">#227BF0</color>
+    <color name="udesk_color_FF7701">#FF7701</color>
+    <color name="udesk_color_ADADAD">#ADADAD</color>
+    <color name="udesk_color_F2F4F5">#F2F4F5</color>
+    <color name="udesk_color_307AE8">#307AE8</color>
+    <color name="udesk_color_E8ECED">#E8ECED</color>
+    <color name="udesk_color_555555">#555555</color>
+    <color name="udesk_color_ffebedf0">#ffebedf0</color>
+    <color name="udesk_color_FFDFDF">#FFDFDF</color>
+    <color name="udesk_color_b3212121">#b3212121</color>
+    <color name="udesk_color_66212121">#66212121</color>
+    <color name="udesk_color_D7D7D7">#D7D7D7</color>
+
+    <color name="line">#ccc</color>
+    <color name="white">#fff</color>
+    <color name="gray">#D9D9D9</color>
+    <color name="gray1">#7e7e7e</color>
+    <color name="green2">#A3DEA3</color>
+    <color name="gray4">#F5F5F5</color>
+    <color name="gray5">#EBEBEB</color>
+    <color name="transparent">#00000000</color>
+    <color name="dialog_back_color">#80000000</color>
+    <color name="default_back_color">#fAfAfA</color>
+    <color name="light_gray_color">#f7f7f7</color>
+    <color name="stroke_color">#e9e5e5</color>
+    <color name="color_1850cc">#1850CC</color>
+
+</resources>

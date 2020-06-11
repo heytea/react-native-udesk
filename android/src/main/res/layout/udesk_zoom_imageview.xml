@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:id="@+id/udesk_panel_zoom_imageview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/udesk_black"
+    android:layoutDirection="ltr">
+
+    <Button
+        android:id="@+id/udesk_zoom_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@null"
+        android:padding="@dimen/udesk_20"
+        android:text="@string/udesk_save"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/udesk_sp16" />
+
+
+    <Button
+        android:id="@+id/udesk_original_photos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@null"
+        android:padding="@dimen/udesk_20"
+        android:text="@string/udesk_original_photos"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/udesk_sp16" />
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/udesk_zoom_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/udesk_zoom_save"
+        android:layout_alignParentTop="true"
+        fresco:actualImageScaleType="centerCrop" />
+    <cn.udesk.xphotoview.XPhotoView
+        android:visibility="gone"
+        android:id="@+id/udesk_xphoto_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/udesk_zoom_save" />
+
+</RelativeLayout>

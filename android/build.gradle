@@ -73,6 +73,16 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    implementation 'com.github.chrisbanes:PhotoView:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.14.4'
+    implementation group: 'org.ccil.cowan.tagsoup', name: 'tagsoup', version: '1.2.1'
+    implementation files('libs/udesk-asmack-8-4.0.6.jar')
+    api files('libs/udesk_sdk_5.1.8.jar')
 }
 
 def configureReactNativePom(def pom) {

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/udesk_80"
+    android:layout_height="@dimen/udesk_80"
+    android:layoutDirection="ltr">
+
+    <ImageView
+        android:id="@+id/udesk_iv_picture"
+        android:layout_width="@dimen/udesk_80"
+        android:layout_height="@dimen/udesk_80"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/video_tip"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/udesk_video_play"
+        android:visibility="gone" />
+
+</RelativeLayout>

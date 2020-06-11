@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/udesk_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/udesk_color_bg_white"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/top_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/udesk_55">
+
+        <TextView
+            android:id="@+id/udesk_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/udesk_40"
+            android:layout_marginRight="@dimen/udesk_40"
+            android:gravity="center"
+            android:minHeight="@dimen/udesk_55"
+            android:textColor="@color/udesk_color_333333"
+            android:textSize="17sp" />
+        <LinearLayout
+            android:id="@+id/udesk_survy_cancle"
+            android:layout_width="@dimen/udesk_30"
+            android:layout_height="@dimen/udesk_55"
+            android:layout_alignParentRight="true"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/udesk_15"
+                android:layout_height="@dimen/udesk_15"
+                android:layout_gravity="center"
+                android:src="@drawable/udesk_survy_cancle" />
+            </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#f3f3f3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_text_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/udesk_40"
+        android:layout_marginRight="@dimen/udesk_40"
+        android:layout_marginTop="@dimen/udesk_15"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/star_des"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/udesk_45"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/udesk_color_2d93fa"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_options_tags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/udesk_40"
+        android:layout_marginRight="@dimen/udesk_40"
+        android:layout_marginTop="@dimen/udesk_10"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/udesk_remark_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/udesk_40"
+        android:layout_marginRight="@dimen/udesk_40"
+        android:layout_marginTop="@dimen/udesk_15"
+        android:background="@drawable/udesk_remark_bg"
+        android:minHeight="@dimen/udesk_40"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <EditText
+            android:id="@+id/udesk_remark_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="left|center"
+            android:maxHeight="@dimen/udesk_80"
+            android:minHeight="@dimen/udesk_40"
+            android:padding="12dp"
+            android:textColor="@color/udesk_color_333333"
+            android:textColorHint="@color/udesk_color_cccccc"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/udesk_must_reamrk_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/udesk_40"
+        android:layout_marginRight="@dimen/udesk_40"
+        android:layout_marginTop="@dimen/udesk_5"
+        android:gravity="left|center"
+        android:text="@string/udesk_remark_must"
+        android:textColor="@color/udesk_color_cd3f31"
+        android:textSize="@dimen/udesk_sp10"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/submit_survy_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/udesk_45"
+        android:layout_marginBottom="@dimen/udesk_25"
+        android:layout_marginLeft="@dimen/udesk_40"
+        android:layout_marginRight="@dimen/udesk_40"
+        android:layout_marginTop="@dimen/udesk_20"
+        android:background="@drawable/udesk_submit_remark_bg"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/summit_remark"
+        android:textColor="@color/udesk_color_bg_white"
+        android:textSize="@dimen/udesk_sp16" />
+
+</LinearLayout>
