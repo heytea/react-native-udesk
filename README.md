@@ -1,16 +1,19 @@
-# react-native-udesk
+# @heytea/react-native-udesk
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+[![npm](https://img.shields.io/badge/npm-1.0.3-green)](https://www.npmjs.com/package/@heytea/react-native-udesk)
 
 ## Getting started
 
-`$ npm install react-native-udesk --save`
+`$ npm install @heytea/react-native-udesk --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-udesk`
+`$ react-native link @heytea/react-native-udeskk`
 
 ## Usage
 ```js
-import ReactNativeUdesk from 'react-native-udesk';
+import ReactNativeUdesk from '@heytea/react-native-udesk';
 
 // 以下是ReactNativeUdesk可使用的方法
 

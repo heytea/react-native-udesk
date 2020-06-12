@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import udesk.core.model.MessageInfo;
 
 public class BrandAdapter extends RecyclerView.Adapter<BrandAdapter.BrandViewHold>{

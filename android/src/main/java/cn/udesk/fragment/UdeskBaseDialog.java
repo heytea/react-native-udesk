@@ -14,7 +14,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.activity.UdeskBaseActivity;
 
 public abstract class UdeskBaseDialog extends DialogFragment {

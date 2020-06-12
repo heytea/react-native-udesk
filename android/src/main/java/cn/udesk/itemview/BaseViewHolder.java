@@ -12,10 +12,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.heyteago.udesk.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.udesk.R;
 import cn.udesk.UdeskUtil;
 import cn.udesk.model.UdeskQueueItem;
 import cn.udesk.widget.UdeskImageView;

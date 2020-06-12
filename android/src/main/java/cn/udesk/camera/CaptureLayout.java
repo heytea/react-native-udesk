@@ -15,7 +15,7 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.camera.callback.CaptureListener;
 import cn.udesk.camera.callback.TypeListener;
 

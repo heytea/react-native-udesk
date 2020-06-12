@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.text.TextUtils;
 import android.widget.Toast;
 
+import com.heyteago.udesk.R;
+
 import org.json.JSONObject;
 
 import java.util.List;

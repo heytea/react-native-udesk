@@ -47,6 +47,8 @@ import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.heyteago.udesk.R;
+
 import org.json.JSONObject;
 
 import java.io.File;
@@ -60,7 +62,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import cn.udesk.JsonUtils;
 import cn.udesk.PreferenceHelper;
-import cn.udesk.R;
 import cn.udesk.UdeskSDKManager;
 import cn.udesk.UdeskUtil;
 import cn.udesk.aac.MergeMode;

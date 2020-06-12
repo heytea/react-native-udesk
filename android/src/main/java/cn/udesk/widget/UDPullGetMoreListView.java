@@ -14,7 +14,8 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
+
 import cn.udesk.UdeskUtil;
 
 

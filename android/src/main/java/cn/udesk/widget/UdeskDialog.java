@@ -5,7 +5,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.widget.ProgressBar;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 
 public class UdeskDialog extends Dialog{
 	

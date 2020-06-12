@@ -4,7 +4,7 @@ package cn.udesk.config;
 import java.util.List;
 import java.util.Map;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.callback.IFunctionItemClickCallBack;
 import cn.udesk.callback.ILocationMessageClickCallBack;
 import cn.udesk.callback.INavigationItemClickCallBack;

@@ -13,7 +13,7 @@ import android.view.View;
 
 import java.io.File;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.rich.LoaderTask;
 
 

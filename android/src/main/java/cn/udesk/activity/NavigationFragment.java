@@ -11,7 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskSDKManager;
 import cn.udesk.adapter.NavigationAdapter;
 import cn.udesk.model.NavigationMode;

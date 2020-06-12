@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskUtil;
 import cn.udesk.photoselect.adapter.PreviewPhotosFragmentAdapter;
 

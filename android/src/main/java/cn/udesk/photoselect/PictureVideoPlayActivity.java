@@ -15,7 +15,8 @@ import android.widget.VideoView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
+
 import cn.udesk.UdeskUtil;
 import udesk.core.UdeskConst;
 

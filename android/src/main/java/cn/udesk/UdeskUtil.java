@@ -42,6 +42,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
+import com.heyteago.udesk.R;
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;

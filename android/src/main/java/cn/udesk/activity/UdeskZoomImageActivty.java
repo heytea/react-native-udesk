@@ -28,7 +28,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskSDKManager;
 import cn.udesk.UdeskUtil;
 import cn.udesk.imageloader.UdeskImageLoader;
@@ -295,7 +295,7 @@ public class UdeskZoomImageActivty extends UdeskBaseActivity implements
 
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.Q)
+//    @RequiresApi(api = Build.VERSION_CODES.Q)
     private boolean copyFileQ(Context context, String fileName, Uri uri) {
         try {
             ContentResolver contentResolver = context.getContentResolver();
@@ -303,7 +303,7 @@ public class UdeskZoomImageActivty extends UdeskBaseActivity implements
             ContentValues contentValues = new ContentValues();
             contentValues.put(MediaStore.Images.Media.DISPLAY_NAME, fileName);
             contentValues.put(MediaStore.Images.Media.MIME_TYPE, "image/png");
-            contentValues.put(MediaStore.Images.Media.RELATIVE_PATH, Environment.DIRECTORY_DCIM);
+//            contentValues.put(MediaStore.Images.Media.RELATIVE_PATH, Environment.DIRECTORY_DCIM);
             Uri insert = contentResolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, contentValues);
             if (insert == null) {
                 return false;

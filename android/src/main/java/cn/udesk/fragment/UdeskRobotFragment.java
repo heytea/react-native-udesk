@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskAssociate;
 import cn.udesk.UdeskSDKManager;
 import cn.udesk.UdeskUtil;

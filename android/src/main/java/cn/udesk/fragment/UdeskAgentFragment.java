@@ -22,7 +22,7 @@ import androidx.fragment.app.FragmentTransaction;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskSDKManager;
 import cn.udesk.UdeskUtil;
 import cn.udesk.activity.NavigationFragment;

@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskUtil;
 
 /**

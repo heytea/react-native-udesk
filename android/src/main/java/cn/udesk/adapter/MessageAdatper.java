@@ -8,12 +8,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
+import com.heyteago.udesk.R;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import cn.udesk.R;
 import cn.udesk.activity.UdeskChatActivity;
 import cn.udesk.db.UdeskDBManager;
 import cn.udesk.itemview.BaseViewHolder;

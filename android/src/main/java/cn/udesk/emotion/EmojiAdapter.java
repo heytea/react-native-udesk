@@ -10,7 +10,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
+
 
 public class EmojiAdapter extends BaseAdapter {
 

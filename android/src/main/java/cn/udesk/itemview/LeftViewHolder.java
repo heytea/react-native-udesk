@@ -44,7 +44,7 @@ import java.util.List;
 import java.util.Map;
 
 import cn.udesk.JsonUtils;
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskSDKManager;
 import cn.udesk.UdeskUtil;
 import cn.udesk.activity.UdeskChatActivity;

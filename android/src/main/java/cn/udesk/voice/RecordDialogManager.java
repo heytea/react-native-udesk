@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 
 
 public class RecordDialogManager {

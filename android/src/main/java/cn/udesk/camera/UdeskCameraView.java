@@ -21,7 +21,7 @@ import android.widget.VideoView;
 
 import java.io.IOException;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.camera.callback.CameraOpenOverCallback;
 import cn.udesk.camera.callback.CameraView;
 import cn.udesk.camera.callback.CaptureListener;

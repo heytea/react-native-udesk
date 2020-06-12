@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import cn.udesk.JsonUtils;
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskSDKManager;
 import cn.udesk.UdeskUtil;
 import cn.udesk.config.UdeskConfigUtil;

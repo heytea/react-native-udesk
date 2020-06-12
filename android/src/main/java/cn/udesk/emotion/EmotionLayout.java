@@ -17,7 +17,7 @@ import android.widget.RelativeLayout;
 
 import java.util.List;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 
 /**
  * 表情布局

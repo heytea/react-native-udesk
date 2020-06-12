@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 
 
 /**

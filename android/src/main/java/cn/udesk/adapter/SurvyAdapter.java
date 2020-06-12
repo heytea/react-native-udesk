@@ -9,11 +9,13 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.heyteago.udesk.R;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import cn.udesk.R;
+
 import cn.udesk.UdeskUtil;
 import cn.udesk.model.OptionsModel;
 import udesk.core.UdeskConst;

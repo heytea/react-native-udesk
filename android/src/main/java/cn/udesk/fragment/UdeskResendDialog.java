@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.activity.UdeskChatActivity;
 import udesk.core.model.MessageInfo;
 

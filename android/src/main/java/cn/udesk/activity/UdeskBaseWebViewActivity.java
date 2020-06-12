@@ -15,7 +15,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.widget.UdeskTitleBar;
 
 

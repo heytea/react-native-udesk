@@ -9,7 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskUtil;
 import cn.udesk.camera.callback.ErrorListener;
 import cn.udesk.camera.callback.UdeskCameraListener;

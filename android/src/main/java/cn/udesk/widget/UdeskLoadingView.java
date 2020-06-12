@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 
 /**
  * 加载控件

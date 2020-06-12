@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskUtil;
 import cn.udesk.photoselect.SelectResult;
 import cn.udesk.photoselect.entity.LocalMedia;

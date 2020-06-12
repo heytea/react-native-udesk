@@ -19,7 +19,7 @@ import androidx.annotation.Nullable;
 import androidx.core.graphics.drawable.RoundedBitmapDrawable;
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 
 
 public class UdeskImageView extends ImageView {

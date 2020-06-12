@@ -4,7 +4,7 @@ package cn.udesk.activity;
 import android.os.Bundle;
 import android.view.View;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskSDKManager;
 import cn.udesk.config.UdeskConfigUtil;
 import cn.udesk.config.UdeskConfig;

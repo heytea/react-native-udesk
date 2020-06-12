@@ -18,7 +18,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskUtil;
 import cn.udesk.photoselect.entity.LocalMedia;
 import cn.udesk.photoselect.entity.LocalMediaFolder;
@@ -43,8 +43,8 @@ public class LocalMedialLoader {
             MediaStore.MediaColumns.MIME_TYPE,
             MediaStore.MediaColumns.WIDTH,
             MediaStore.MediaColumns.HEIGHT,
-            MediaStore.MediaColumns.DURATION,
-            MediaStore.MediaColumns.ORIENTATION,
+//            MediaStore.MediaColumns.DURATION,
+//            MediaStore.MediaColumns.ORIENTATION,
             };
 
     // 获取图片or视频

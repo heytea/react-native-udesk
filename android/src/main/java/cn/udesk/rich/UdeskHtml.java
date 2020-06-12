@@ -48,7 +48,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 
 
 public class UdeskHtml {

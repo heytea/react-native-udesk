@@ -17,7 +17,7 @@ import com.github.chrisbanes.photoview.PhotoView;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskUtil;
 import cn.udesk.photoselect.PictureVideoPlayActivity;
 import cn.udesk.photoselect.entity.LocalMedia;

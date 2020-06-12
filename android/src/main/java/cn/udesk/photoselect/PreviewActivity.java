@@ -24,7 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import cn.udesk.R;
+import com.heyteago.udesk.R;
 import cn.udesk.UdeskUtil;
 import cn.udesk.photoselect.adapter.PreviewPhotosAdapter;
 import udesk.core.UdeskConst;
