@@ -67,6 +67,7 @@ public class ReactNativeUdeskModule extends ReactContextBaseJavaModule {
             UdeskConfig.Builder builder = new UdeskConfig.Builder();
             builder.setDefaultUserInfo(info);
             UdeskSDKManager.getInstance().entryChat(getApplicationContext(), builder.build(), sdkToken);
+            promise.resolve(null);
         } catch (Exception e) {
             promise.reject(new Throwable(e.getMessage()));
         }
@@ -77,10 +78,14 @@ public class ReactNativeUdeskModule extends ReactContextBaseJavaModule {
     }
 
     private String getReadableMapString(@Nullable ReadableMap map, @Nonnull String key, String defaultValue) {
-        if (map == null) {
+        try {
+            if (map == null) {
+                return defaultValue;
+            }
+            String value = map.getString(key);
+            return value == null ? defaultValue : value;
+        } catch (Exception e) {
             return defaultValue;
         }
-        String value = map.getString(key);
-        return value == null ? defaultValue : value;
     }
 }

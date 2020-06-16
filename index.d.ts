@@ -3,7 +3,7 @@ export interface IInitParam {
     domain:string;
     appKey:string;
     appId:string;
-    sdkToken:string;  //是客户的唯一标识，用来识别身份
+    sdkToken:string;  //是客户的唯一标识，用来识别身份，可以传userId
 }
 
 /**
@@ -16,10 +16,10 @@ export function init(param:IInitParam): Promise<null>
  * 用户信息，用于传入这些用户信息，供客服查看
  */
 export interface IUserInfo {
-    nickname: string;
-    email: string;
-    phone: string;
-    description: string;
+    nickname?: string;
+    email?: string;
+    phone?: string;
+    description?: string;
 }
 
 /**
