@@ -20,12 +20,10 @@ import udesk.core.UdeskConst;
 
 public class ReactNativeUdeskModule extends ReactContextBaseJavaModule {
 
-    private final ReactApplicationContext reactContext;
     private String sdkToken; // 用户唯一的标识
 
     public ReactNativeUdeskModule(ReactApplicationContext reactContext) {
         super(reactContext);
-        this.reactContext = reactContext;
     }
 
     @Override
@@ -34,24 +32,9 @@ public class ReactNativeUdeskModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void init(@Nullable ReadableMap initParam, Promise promise) {
-        try {
-            UdeskSDKManager.getInstance().initApiKey(
-                    getCurrentActivity(),
-                    getReadableMapString(initParam, "domain", ""),
-                    getReadableMapString(initParam, "appKey", ""),
-                    getReadableMapString(initParam, "appId", "")
-            );
-            sdkToken = getReadableMapString(initParam, "sdkToken", null);
-            promise.resolve(null);
-        } catch (Exception e) {
-            promise.reject(new Throwable(e.getMessage()));
-        }
-    }
-
-    @ReactMethod
     public void startChat(@Nullable ReadableMap userInfo, Promise promise) {
         try {
+            init(userInfo);
             // 默认系统字段是Udesk已定义好的字段，开发者可以直接传入这些用户信息，供客服查看。
             Map<String, String> info = new HashMap<>();
             info.put(UdeskConst.UdeskUserInfo.USER_SDK_TOKEN, sdkToken);
@@ -67,10 +50,20 @@ public class ReactNativeUdeskModule extends ReactContextBaseJavaModule {
             UdeskConfig.Builder builder = new UdeskConfig.Builder();
             builder.setDefaultUserInfo(info);
             UdeskSDKManager.getInstance().entryChat(getApplicationContext(), builder.build(), sdkToken);
-            promise.resolve(null);
+            promise.resolve(true);
         } catch (Exception e) {
-            promise.reject(new Throwable(e.getMessage()));
+            promise.resolve(false);
         }
+    }
+
+    private void init(@Nullable ReadableMap initParam) {
+        UdeskSDKManager.getInstance().initApiKey(
+                getCurrentActivity(),
+                getReadableMapString(initParam, "domain", ""),
+                getReadableMapString(initParam, "appKey", ""),
+                getReadableMapString(initParam, "appId", "")
+        );
+        sdkToken = getReadableMapString(initParam, "sdkToken", null);
     }
 
     private Context getApplicationContext() {
