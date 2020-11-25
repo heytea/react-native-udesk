@@ -1,7 +1,7 @@
 # @heytea/react-native-udesk
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
-[![npm](https://img.shields.io/badge/npm-1.0.3-green)](https://www.npmjs.com/package/@heytea/react-native-udesk)
+[![npm](https://img.shields.io/badge/npm-1.0.6-green)](https://www.npmjs.com/package/@heytea/react-native-udesk)
 
 ## Getting started
 
