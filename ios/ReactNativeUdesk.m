@@ -14,27 +14,28 @@ RCT_EXPORT_MODULE(ReactNativeUdesk);
     return YES;
 }
 
+RCT_EXPORT_METHOD(startChat:(NSDictionary *)data
+                  :(RCTPromiseResolveBlock)resolve
+                  :(RCTPromiseRejectBlock)reject){
 
-RCT_EXPORT_METHOD(init:(NSDictionary*)data) {
-  
-  NSString *domain = data[@"domain"];
-  NSString *appKey = data[@"appKey"];
-  NSString *appId = data[@"appId"];
-  NSString *sdkToken = data[@"sdkToken"];
-  UdeskOrganization *organization = [[UdeskOrganization alloc] initWithDomain:domain appKey:appKey appId:appId];
-  UdeskCustomer *customer = [UdeskCustomer new];
-  customer.sdkToken = sdkToken;
-  [UdeskManager initWithOrganization:organization customer:customer];
-  
-}
+  //初始化公司（appKey、appID、domain都是必传字段）
+   UdeskOrganization *organization = [[UdeskOrganization alloc] initWithDomain:data[@"domain"] appKey:data[@"appKey"] appId:data[@"appId"]];
 
+   UdeskCustomer *customer = [UdeskCustomer new];
+   customer.sdkToken = data[@"sdkToken"];
+   customer.nickName = data[@"nickname"];
 
-RCT_EXPORT_METHOD(startChat){
-      
-  UdeskSDKManager *sdkManager = [[UdeskSDKManager alloc] initWithSDKStyle:[UdeskSDKStyle defaultStyle] sdkConfig:[UdeskSDKConfig customConfig]];
-  
-  [sdkManager pushUdeskInViewController:[ReactNativeUdesk getCurrentVC] udeskType:UdeskFAQ completion:nil];
-  
+   //初始化sdk
+   [UdeskManager initWithOrganization:organization customer:customer];
+
+  //使用push
+  UdeskSDKManager *sdkManager = [[UdeskSDKManager alloc] initWithSDKStyle:[UdeskSDKStyle customStyle] sdkConfig:[UdeskSDKConfig customConfig]];
+//  [sdkManager pushUdeskInViewController:self completion:nil];
+
+  //使用present
+  [sdkManager presentUdeskInViewController:[ReactNativeUdesk getCurrentVC] completion:nil];
+
+  resolve(@(YES));
 }
 
 

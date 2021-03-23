@@ -1,7 +1,7 @@
 {
   "name": "@heytea/react-native-udesk",
   "title": "React Native Udesk",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "@heytea/react-native-udesk",
   "main": "index.js",
   "files": [
